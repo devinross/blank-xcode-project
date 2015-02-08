@@ -14,13 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var viewController: ViewController?
 
-    
+    class func instance() -> AppDelegate {
+        return UIApplication.sharedApplication().delegate as AppDelegate
+    }
     
     func setupHockey(){
+        #if !(DEBUG || arch(i386) || arch(x86_64))
         BITHockeyManager.sharedHockeyManager().configureWithIdentifier("<#HockeyAppIdentifier#>")
         BITHockeyManager.sharedHockeyManager().startManager()
         BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
+        #endif
     }
+    
+    
+
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

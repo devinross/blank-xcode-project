@@ -13,6 +13,11 @@
 
 @implementation AViewController
 
-
+- (void) viewDidLoad{
+    [super viewDidLoad];
+    
+    
+    POPSpringAnimation *animate;
+}
 
 @end
