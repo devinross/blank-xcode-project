@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupHockey(){
-        #if !(DEBUG || arch(i386) || arch(x86_64))
+        #if RELEASE
         BITHockeyManager.sharedHockeyManager().configureWithIdentifier("<#HockeyAppIdentifier#>")
         BITHockeyManager.sharedHockeyManager().startManager()
         BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
