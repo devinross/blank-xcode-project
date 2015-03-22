@@ -8,6 +8,6 @@
 #ifndef Header_h
 #define Header_h
 
-#import <TapkuLibrary/TapkuLibrary.h>
+@import tapku;
 
 #endif

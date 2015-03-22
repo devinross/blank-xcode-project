@@ -9,7 +9,11 @@
 #ifndef Blank_Prefix_Header_h
 #define Blank_Prefix_Header_h
 
-#import <TapkuLibrary/TapkuLibrary.h>
-#import <POP.h>
+@import Foundation;
+@import UIKit;
+@import QuartzCore;
+
+@import tapku;
+@import pop;
 
 #endif

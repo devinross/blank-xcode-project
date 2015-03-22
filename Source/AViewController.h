@@ -5,8 +5,7 @@
 //
 //
 
-#import <UIKit/UIKit.h>
-#import <TapkuLibrary/TapkuLibrary.h>
+@import UIKit;
 
 @interface AViewController : UIViewController
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2020A22E1A87CCAC007B37FE /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020A22A1A87CCAC007B37FE /* HockeySDK.framework */; };
-		2020A22F1A87CCAC007B37FE /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2020A22C1A87CCAC007B37FE /* HockeySDK.xcconfig */; };
 		2020A2301A87CCAC007B37FE /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2020A22D1A87CCAC007B37FE /* HockeySDKResources.bundle */; };
 		20A6AA8F1A82BA0A00D0E80B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA8E1A82BA0A00D0E80B /* AssetsLibrary.framework */; };
 		20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA901A82BA0F00D0E80B /* CoreGraphics.framework */; };
@@ -20,17 +19,37 @@
 		20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9C1A82BA3500D0E80B /* QuartzCore.framework */; };
 		20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AA9F1A82BA4700D0E80B /* Foundation.framework */; };
 		20A6AAA21A82BA4D00D0E80B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AAA11A82BA4D00D0E80B /* UIKit.framework */; };
-		20A6AAAB1A82BBD500D0E80B /* buildnumber.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 20A6AAAA1A82BBD500D0E80B /* buildnumber.xcconfig */; };
+		20C0CD311ABE6BBF007E3F1F /* tapku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C0CD2E1ABE6B9F007E3F1F /* tapku.framework */; };
+		20C0CD321ABE6BBF007E3F1F /* tapku.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20C0CD2E1ABE6B9F007E3F1F /* tapku.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20CCB6E21A82A4A800728BA2 /* pop.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20CCB6D71A8294FE00728BA2 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20CCB6EE1A82B3D700728BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB6E91A82B3D700728BA2 /* AppDelegate.swift */; };
 		20CCB6EF1A82B3D700728BA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CCB6EB1A82B3D700728BA2 /* Images.xcassets */; };
-		20CCB6F01A82B3D700728BA2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20CCB6EC1A82B3D700728BA2 /* Info.plist */; };
 		20CCB6F11A82B3D700728BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB6ED1A82B3D700728BA2 /* ViewController.swift */; };
-		20CCB6FF1A82B60E00728BA2 /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CCB6FA1A82B5F800728BA2 /* libTapkuLibrary.a */; };
 		20CCB7021A82B71D00728BA2 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CCB7011A82B71D00728BA2 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		20C0CD2D1ABE6B9F007E3F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CCB6F41A82B5F800728BA2 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 204C73E11ABA0EA600A68988;
+			remoteInfo = tapku;
+		};
+		20C0CD2F1ABE6B9F007E3F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CCB6F41A82B5F800728BA2 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 204C73EB1ABA0EA600A68988;
+			remoteInfo = tapkuTests;
+		};
+		20C0CD331ABE6BBF007E3F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CCB6F41A82B5F800728BA2 /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 204C73E01ABA0EA600A68988;
+			remoteInfo = tapku;
+		};
 		20CCB6D41A8294FE00728BA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 20CCB6CC1A8294FE00728BA2 /* pop.xcodeproj */;
@@ -87,13 +106,6 @@
 			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
 			remoteInfo = LogicTests;
 		};
-		20CCB6FD1A82B60700728BA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20CCB6F41A82B5F800728BA2 /* TapkuLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = TapkuLibrary;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +115,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				20C0CD321ABE6BBF007E3F1F /* tapku.framework in CopyFiles */,
 				20CCB6E21A82A4A800728BA2 /* pop.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C0CD311ABE6BBF007E3F1F /* tapku.framework in Frameworks */,
 				20A6AAA21A82BA4D00D0E80B /* UIKit.framework in Frameworks */,
 				20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */,
 				20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */,
@@ -153,7 +167,6 @@
 				2020A22E1A87CCAC007B37FE /* HockeySDK.framework in Frameworks */,
 				20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */,
 				20A6AA8F1A82BA0A00D0E80B /* AssetsLibrary.framework in Frameworks */,
-				20CCB6FF1A82B60E00728BA2 /* libTapkuLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +278,8 @@
 			children = (
 				20CCB6FA1A82B5F800728BA2 /* libTapkuLibrary.a */,
 				20CCB6FC1A82B5F800728BA2 /* LogicTests.xctest */,
+				20C0CD2E1ABE6B9F007E3F1F /* tapku.framework */,
+				20C0CD301ABE6B9F007E3F1F /* tapkuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,8 +301,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				20CCB6FE1A82B60700728BA2 /* PBXTargetDependency */,
 				20CCB6E01A82A49800728BA2 /* PBXTargetDependency */,
+				20C0CD341ABE6BBF007E3F1F /* PBXTargetDependency */,
 			);
 			name = Blank;
 			productName = Blank;
@@ -300,7 +315,7 @@
 		20CCB69B1A828E4F00728BA2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					20CCB6A21A828E4F00728BA2 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -336,6 +351,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		20C0CD2E1ABE6B9F007E3F1F /* tapku.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = tapku.framework;
+			remoteRef = 20C0CD2D1ABE6B9F007E3F1F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		20C0CD301ABE6B9F007E3F1F /* tapkuTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = tapkuTests.xctest;
+			remoteRef = 20C0CD2F1ABE6B9F007E3F1F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		20CCB6D51A8294FE00728BA2 /* libpop.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -392,10 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A6AAAB1A82BBD500D0E80B /* buildnumber.xcconfig in Resources */,
-				20CCB6F01A82B3D700728BA2 /* Info.plist in Resources */,
 				2020A2301A87CCAC007B37FE /* HockeySDKResources.bundle in Resources */,
-				2020A22F1A87CCAC007B37FE /* HockeySDK.xcconfig in Resources */,
 				20CCB6EF1A82B3D700728BA2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,15 +471,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20C0CD341ABE6BBF007E3F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tapku;
+			targetProxy = 20C0CD331ABE6BBF007E3F1F /* PBXContainerItemProxy */;
+		};
 		20CCB6E01A82A49800728BA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "pop-embedded";
 			targetProxy = 20CCB6DF1A82A49800728BA2 /* PBXContainerItemProxy */;
-		};
-		20CCB6FE1A82B60700728BA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapkuLibrary;
-			targetProxy = 20CCB6FD1A82B60700728BA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -541,16 +567,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"Vendor/**",
 					"$(PROJECT_DIR)/Vendor/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Vendor/HockeySDK-iOS/HockeySDK.embeddedframework",
 				);
 				GCC_PREFIX_HEADER = "Source/Prefix-Header.h";
-				HEADER_SEARCH_PATHS = "\"Vendor\"/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"Vendor\"/**";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -568,16 +593,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"Vendor/**",
 					"$(PROJECT_DIR)/Vendor/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Vendor/HockeySDK-iOS/HockeySDK.embeddedframework",
 				);
 				GCC_PREFIX_HEADER = "Source/Prefix-Header.h";
-				HEADER_SEARCH_PATHS = "\"Vendor\"/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"Vendor\"/**";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
