@@ -4,3 +4,6 @@
 [submodule "Vendor/tapku"]
 	path = Vendor/tapku
 	url = https://github.com/devinross/tapkulibrary.git
+[submodule "Vendor/curryfire"]
+	path = Vendor/curryfire
+	url = https://github.com/devinross/curry-fire.git
