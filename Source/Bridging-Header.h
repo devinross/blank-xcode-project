@@ -8,6 +8,8 @@
 #ifndef Header_h
 #define Header_h
 
-@import tapku;
+@import curry;
+@import pop;
+@import curryfire;
 
 #endif

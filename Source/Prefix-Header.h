@@ -13,7 +13,8 @@
 @import UIKit;
 @import QuartzCore;
 
-@import tapku;
+@import curry;
 @import pop;
+@import curryfire;
 
 #endif
