@@ -8,8 +8,6 @@
 #ifndef Header_h
 #define Header_h
 
-@import curry;
-@import pop;
-@import curryfire;
+#import "AViewController.h"
 
 #endif
