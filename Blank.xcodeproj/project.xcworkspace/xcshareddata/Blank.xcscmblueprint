@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5165C4D72F185EA3D13BDD6E322E919A5348798C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3" : 0,
+    "771CDDC8828BA5C85B70BAEAFD5C3B58BF9E0AE2" : 0,
+    "8745B112FAD8F8DD9A0D5E046950E230C4C45D0E" : 0,
+    "5165C4D72F185EA3D13BDD6E322E919A5348798C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D4A91444-19F5-41FD-AB0D-C4C842DD12C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3" : "blank-xcode-projectVendor\/curryfire\/Vendor\/pop",
+    "771CDDC8828BA5C85B70BAEAFD5C3B58BF9E0AE2" : "blank-xcode-projectVendor\/curryfire\/Vendor\/curry",
+    "8745B112FAD8F8DD9A0D5E046950E230C4C45D0E" : "blank-xcode-projectVendor\/curryfire",
+    "5165C4D72F185EA3D13BDD6E322E919A5348798C" : "blank-xcode-project"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Blank",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Blank.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:devinross\/blank-xcode-project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5165C4D72F185EA3D13BDD6E322E919A5348798C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devinross\/curry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "771CDDC8828BA5C85B70BAEAFD5C3B58BF9E0AE2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devinross\/curry-fire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8745B112FAD8F8DD9A0D5E046950E230C4C45D0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/pop.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3"
+    }
+  ]
+}
