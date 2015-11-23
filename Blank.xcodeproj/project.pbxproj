@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2020A22E1A87CCAC007B37FE /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020A22A1A87CCAC007B37FE /* HockeySDK.framework */; };
-		2020A2301A87CCAC007B37FE /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2020A22D1A87CCAC007B37FE /* HockeySDKResources.bundle */; };
+		203CEE321C03740200DAC065 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CEE2F1C03740200DAC065 /* HockeySDK.framework */; };
+		203CEE331C03740200DAC065 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 203CEE311C03740200DAC065 /* HockeySDKResources.bundle */; };
 		204C8EE41AFC1136003A7DDC /* curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8EDD1AFC111B003A7DDC /* curry.framework */; };
 		204C8EE51AFC1136003A7DDC /* curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8EDD1AFC111B003A7DDC /* curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		204C8EED1AFC1144003A7DDC /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204C8ED21AFC1117003A7DDC /* pop.framework */; };
@@ -163,9 +163,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2020A22A1A87CCAC007B37FE /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		2020A22C1A87CCAC007B37FE /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
-		2020A22D1A87CCAC007B37FE /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		203CEE2F1C03740200DAC065 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		203CEE311C03740200DAC065 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 		204C8EB91AFC10E1003A7DDC /* curryfire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = curryfire.xcodeproj; path = Vendor/curryfire/curryfire.xcodeproj; sourceTree = "<group>"; };
 		204C8EC41AFC1117003A7DDC /* pop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pop.xcodeproj; path = Vendor/curryfire/Vendor/pop/pop.xcodeproj; sourceTree = "<group>"; };
 		204C8ED71AFC111B003A7DDC /* curry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = curry.xcodeproj; path = Vendor/curryfire/Vendor/curry/curry.xcodeproj; sourceTree = "<group>"; };
@@ -202,11 +201,11 @@
 				20A6AAA01A82BA4700D0E80B /* Foundation.framework in Frameworks */,
 				20A6AA9D1A82BA3500D0E80B /* QuartzCore.framework in Frameworks */,
 				20A6AA9B1A82BA2B00D0E80B /* CoreText.framework in Frameworks */,
+				203CEE321C03740200DAC065 /* HockeySDK.framework in Frameworks */,
 				20A6AA991A82BA2600D0E80B /* MobileCoreServices.framework in Frameworks */,
 				20A6AA971A82BA2100D0E80B /* QuickLook.framework in Frameworks */,
 				20A6AA951A82BA1B00D0E80B /* SystemConfiguration.framework in Frameworks */,
 				20A6AA931A82BA1400D0E80B /* Security.framework in Frameworks */,
-				2020A22E1A87CCAC007B37FE /* HockeySDK.framework in Frameworks */,
 				204C8EF11AFC1144003A7DDC /* curryfire.framework in Frameworks */,
 				20A6AA911A82BA0F00D0E80B /* CoreGraphics.framework in Frameworks */,
 				20A6AA8F1A82BA0A00D0E80B /* AssetsLibrary.framework in Frameworks */,
@@ -216,21 +215,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2020A2291A87CCAC007B37FE /* HockeySDK.embeddedframework */ = {
+		203CEE2E1C03740100DAC065 /* HockeySDK.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				2020A22A1A87CCAC007B37FE /* HockeySDK.framework */,
-				2020A22B1A87CCAC007B37FE /* Resources */,
+				203CEE2F1C03740200DAC065 /* HockeySDK.framework */,
+				203CEE301C03740200DAC065 /* Resources */,
 			);
 			name = HockeySDK.embeddedframework;
 			path = "Vendor/HockeySDK-iOS/HockeySDK.embeddedframework";
 			sourceTree = "<group>";
 		};
-		2020A22B1A87CCAC007B37FE /* Resources */ = {
+		203CEE301C03740200DAC065 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2020A22C1A87CCAC007B37FE /* HockeySDK.xcconfig */,
-				2020A22D1A87CCAC007B37FE /* HockeySDKResources.bundle */,
+				203CEE311C03740200DAC065 /* HockeySDKResources.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -307,10 +305,10 @@
 		20CCB6DE1A82950100728BA2 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				203CEE2E1C03740100DAC065 /* HockeySDK.embeddedframework */,
 				204C8ED71AFC111B003A7DDC /* curry.xcodeproj */,
 				204C8EC41AFC1117003A7DDC /* pop.xcodeproj */,
 				204C8EB91AFC10E1003A7DDC /* curryfire.xcodeproj */,
-				2020A2291A87CCAC007B37FE /* HockeySDK.embeddedframework */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -510,8 +508,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2020A2301A87CCAC007B37FE /* HockeySDKResources.bundle in Resources */,
 				20CCB6EF1A82B3D700728BA2 /* Images.xcassets in Resources */,
+				203CEE331C03740200DAC065 /* HockeySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +662,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/Vendor/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Vendor/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 				);
 				GCC_PREFIX_HEADER = "Source/Prefix-Header.h";
 				HEADER_SEARCH_PATHS = "";
@@ -691,6 +690,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/Vendor/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Vendor/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 				);
 				GCC_PREFIX_HEADER = "Source/Prefix-Header.h";
 				HEADER_SEARCH_PATHS = "";

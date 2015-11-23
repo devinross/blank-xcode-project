@@ -7,7 +7,7 @@
 
 import UIKit
 import pop
-
+import curry
 
 class ViewController: UIViewController {
 
@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         self.view.backgroundColor = UIColor.randomColor()
         
-        let hello = TKGradientView(frame: CGRectMake(0, 0, 320, 320))
-        
-        let pop = POPSpringAnimation(propertyNamed: kPOPLayerPositionY)
-        
+//        let hello = TKGradientView(frame: CGRectMake(0, 0, 320, 320))
+//        
+//        let pop = POPSpringAnimation(propertyNamed: kPOPLayerPositionY)
+		
         
     }
 

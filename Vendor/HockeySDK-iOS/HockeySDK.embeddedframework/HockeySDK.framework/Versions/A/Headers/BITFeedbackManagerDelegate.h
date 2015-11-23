@@ -27,9 +27,9 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "BITFeedbackComposeViewControllerDelegate.h"
 
 @class BITFeedbackManager;
-@protocol BITFeedbackComposeViewControllerDelegate;
 
 /**
  *	Delegate protocol which is notified about changes in the feedbackManager
@@ -46,5 +46,20 @@
  *	@param	feedbackManager	The feedbackManager which did detect the new messages
  */
 - (void) feedbackManagerDidReceiveNewFeedback:(BITFeedbackManager*) feedbackManager;
+
+
+/**
+ *  Can be implemented to control wether the feedback manager should automatically
+ *  fetch for new messages on app startup or when becoming active.
+ *
+ *  By default the SDK fetches on app startup or when the app is becoming active again
+ *  if there are already messages existing or pending on the device.
+ *
+ *  You could disable it e.g. depending on available mobile network/WLAN connection
+ *  or let it fetch less frequently.
+ *
+ *	@param	feedbackManager	The feedbackManager which did detect the new messages
+ */
+- (BOOL) allowAutomaticFetchingForNewFeedbackForManager:(BITFeedbackManager *)feedbackManager;
 
 @end
