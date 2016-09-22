@@ -13,8 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.whiteColor()
-        self.view.backgroundColor = UIColor.randomColor()
+        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.random()
         
 //        let hello = TKGradientView(frame: CGRectMake(0, 0, 320, 320))
 //        
