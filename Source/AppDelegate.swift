@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setupHockey(){
         #if RELEASE
-        BITHockeyManager.sharedHockeyManager().configureWithIdentifier("")
-        BITHockeyManager.sharedHockeyManager().startManager()
-        BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
+		BITHockeyManager.shared().configure(withIdentifier: "")
+		BITHockeyManager.shared().start()
+		BITHockeyManager.shared().authenticator.authenticateInstallation()
         #endif
     }
     
@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
-	private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+	internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         setupHockey()
