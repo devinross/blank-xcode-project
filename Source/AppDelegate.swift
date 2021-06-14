@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import HockeySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,23 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     class func instance() -> AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
     }
-    
-    func setupHockey(){
-        #if RELEASE
-		BITHockeyManager.shared().configure(withIdentifier: "")
-		BITHockeyManager.shared().start()
-		BITHockeyManager.shared().authenticator.authenticateInstallation()
-        #endif
-    }
-    
-    
-
 
 
 	internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        setupHockey()
         
         window = UIWindow(frame: UIScreen.main.bounds)
         viewController = ViewController()
